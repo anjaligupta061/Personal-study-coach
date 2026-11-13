@@ -3,9 +3,10 @@ import mongoose from "mongoose";
 
 const studyMaterialSchema = new mongoose.Schema({
     userId : {
-        type: moongose.Schema.Types.ObjectId,
-        ref: "User",
-        required: true,
+        // type: moongose.Schema.Types.ObjectId,
+        // ref: "User",
+        type:String,
+        // required: true,
 
     },
     title :{

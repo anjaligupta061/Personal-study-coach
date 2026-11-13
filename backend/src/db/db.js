@@ -4,7 +4,7 @@ dotenv.config();
 
 
 const MONGODB_URI = process.env.MONGO_URI
-// console.log(process.env.MONGO_URI);
+console.log(process.env.MONGO_URI);
 
 const connectDB = async () => {
     try{
